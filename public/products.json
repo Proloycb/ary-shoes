@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "name": "Black Bery Shoe",
+      "price": 179.9,
+      "image": "https://t4.ftcdn.net/jpg/02/71/68/93/240_F_271689398_PmUJrh7I6Z0IhbYBqvg8tY31MIYBpHh5.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Sports Shoe",
+      "price": 139.9,
+      "image": "https://t4.ftcdn.net/jpg/00/27/94/59/240_F_27945944_DVzbAJ7gHXXkiH2DXtCdqChO8EpeSbkV.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Adidas Lopper",
+      "price": 219.9,
+      "image": "https://t3.ftcdn.net/jpg/02/69/04/34/240_F_269043408_9NU5Jm4ukbbvZA59tLJcultaz2T47Pq7.jpg"
+    },
+    {
+      "id": 4,
+      "name": "DR Lopper Hash",
+      "price": 139.9,
+      "image": "https://t4.ftcdn.net/jpg/00/65/48/11/240_F_65481195_VbssfvvCCR5LuuSRrpHw9JWMjZrFf2m1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Duramo Ultra Shoe 2.0",
+      "price": 219.9,
+      "image": "https://t4.ftcdn.net/jpg/02/17/79/73/240_F_217797385_AY3tFEv1mbTLMlWbebDNUjq26GYODiRE.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Kets Shoe Orange",
+      "price": 179.9,
+      "image": "https://t3.ftcdn.net/jpg/03/01/05/28/240_F_301052850_I0WZku1h13xgiHTbVOkKvdzvanN2zb68.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Shoe DLR Hash",
+      "price": 179.9,
+      "image": "https://t4.ftcdn.net/jpg/02/11/11/15/240_F_211111574_VLtzH6ORhebXvnJXjlkAkaUuAftnvmJH.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Black and White Lopper",
+      "price": 179.9,
+      "image": "https://t3.ftcdn.net/jpg/04/63/73/84/240_F_463738479_NMSD9LPKwKH9BbxBA7YIfKbuif6wZR3H.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Kets Confortavel",
+      "price": 179.9,
+      "image": "https://t3.ftcdn.net/jpg/00/82/88/66/240_F_82886619_a4xje5obM5bAajAjnx6ZzWb0Is70kSQA.jpg"
+    }
+]
