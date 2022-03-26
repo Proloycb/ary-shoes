@@ -14,9 +14,18 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        let newCart = [];
-        newCart = [...cart, product];
+        const newCart = [...cart, product];
         setCart(newCart);
+    }
+
+    const[suggest, setSuggest] = useState([]);
+    const handleSuggestProduct = (cart) => {
+        const newCart = [cart];
+        setSuggest(newCart);
+    }
+    const removeCart = () => {
+        setCart([]);
+        setSuggest([]);
     }
     return (
         <div className='shop-container'>
@@ -30,7 +39,13 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart cart= {cart}></Cart>
+                <Cart 
+                cart= {cart}
+                product = {products}
+                suggest = {suggest}
+                handleSuggestProduct = {handleSuggestProduct}
+                removeCart = {removeCart}
+                ></Cart>
             </div>
         </div>
     );
