@@ -18,3 +18,17 @@
     border-radius: 5px;
     padding: 8px;
 }
+.cart-product {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.cart-product img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.cart-product .product-name {
+    margin-right: 20px;
+}
