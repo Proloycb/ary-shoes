@@ -44,7 +44,6 @@ const ChooseProduct = ({item}) => {
         <div className='cart-product'>
             <img src={image} alt="" /> 
             <h5 className='product-name'>{name}</h5>
-            <FontAwesomeIcon icon={faTrash}></FontAwesomeIcon>
         </div>
     )
 }

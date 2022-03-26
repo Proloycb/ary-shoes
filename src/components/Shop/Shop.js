@@ -14,8 +14,22 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        const newCart = [...cart, product];
-        setCart(newCart);
+        let newCart = [];
+        const exists = cart.find(item => item.id === product.id);
+        if(!exists){
+            newCart = [...cart, product];
+        }
+        else{
+            const rest = cart.filter(item => item.id !== product.id);
+            newCart = [...rest, exists];
+        }
+        if(newCart.length === 5) {
+            alert('You do not add product more then 4')
+        }
+        else{
+            setCart(newCart);
+        }
+        
     }
 
     const[suggest, setSuggest] = useState([]);
