@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Ary Shoes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+live site link: [https://heartfelt-rolypoly-6cb138.netlify.app/](https://heartfelt-rolypoly-6cb138.netlify.app/).
 
 ## Available Scripts
 
