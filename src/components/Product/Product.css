@@ -9,11 +9,14 @@
     width: 286px;
     height: 286px;
 }
+.product-info{
+    margin: 15px 15px 0px;
+}
 .product-info h4{
     margin-top: 10px;
 }
 .btn-cart {
-    width: 100%;
+    margin-left: 5px;
     background-color: #ffffff;
     border: none;
     color: rgb(29, 124, 248);
